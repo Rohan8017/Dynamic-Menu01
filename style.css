@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    background: rgb(7, 110, 139);
+    color: white;
+    font-size: 5rem;
+}
+.content{
+    background: silver;
+    margin-top: -3vh;
+}
+.content h1 {
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+    font-size: 3rem;
+}
+.content form{
+    margin-top: 3vh;
+    text-align: center;
+}
+#input-form{
+    font-size: 2rem;
+}
+#input-data,#priority{
+    height: 3vh;
+    width: 15vw;
+    border-radius: 15vw;
+}
+#products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#products img{
+    height: 12vw;
+    width: 15vw;
+    margin: 2vw;
+}
+#products button{
+    font-size: 2vw;
+    margin-left: 6vw;
+}
